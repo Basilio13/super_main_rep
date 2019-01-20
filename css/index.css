@@ -1,0 +1,26 @@
+.block  {
+    width: 100px; 
+    height: 100px;
+    background: red;
+    cursor: pointer
+}
+.block2  {
+    width: 100px; 
+    height: 150px;
+    background: blue;
+}
+.block2:active  {
+    visibility: hidden;
+}
+.circle {
+    width: 100px; 
+    height: 100px;
+    background: green;
+    border-radius: 100px;
+    transition: 0.1s ease-in-out;
+
+}
+.circle:active {
+    border: 2px black solid;
+    transform: scale(0.85);
+}
