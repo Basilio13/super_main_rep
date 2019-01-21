@@ -1,0 +1,38 @@
+.white {
+    width: 50px; 
+    height: 200px;
+    border-bottom: 3px black solid;
+    border-left:  3px black solid;
+	border-right: 3px black solid;
+    background: white;	
+    transition: 0.9s ease-in-out;
+    }
+.black {
+    width: 50px; 
+    height: 200px;
+    background: black;
+    transition: 0.5s ease-in-out;
+}
+.white:hover {
+	transform: scale(1.1);
+	border-bottom: 5px black solid;
+	border-left:  5px black solid;
+	border-right: 5px black solid;
+}
+.black:hover {
+transform: scale(0.9);
+}
+.strok > div {
+    float: left;
+}
+h1 {
+	font-family: Segoe UI;
+	color:white;
+	background: black;
+	 font-size: 64;
+	height: 85px;
+}
+h4 {
+  font-family: Segoe UI;
+   font-size: 32;
+}
