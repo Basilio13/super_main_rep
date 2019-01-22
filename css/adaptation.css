@@ -1,17 +1,26 @@
-.block  {
-    width: 100px; 
-    height: 100px;
-    background: red;
-    cursor: pointer;
+p {
+	text-indent: 25px;
 }
-@media screen and (max-width: 800px)  {
-	.block {
-	background: black;
-	}		
+body  {
+	font-family: Segoe UI;
 }
-@media screen and (max-width: 600px)  {
-	.block {
-	background: green;
-	width: 200;
+h1 {
+	font-size: 14px;
+}
+@media screen and (min-width: 750px)  {
+	h1 {
+	font-size: 20px;
 	}
 }
+@media screen and (max-width: 462px)  {
+	body {
+	background: black;
+	}
+}
+@media screen and (max-width: 500px)  {
+	body {
+	color: green;
+	}		
+}
+
+
