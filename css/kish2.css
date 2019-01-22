@@ -1,0 +1,17 @@
+.block {
+width: 1500px; 
+height: 60px;
+background-color: #252b39;
+}
+.block2 {
+	width: 750px; 
+    height: 1000px;
+    background-color: #00ff00;
+    position: absolute;
+    left: 20%;
+    font-size: 200%;
+    font-family: Myriad Pro;
+}
+h2 {
+	font-family: Myriad Pro;
+} 

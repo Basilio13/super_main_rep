@@ -1,0 +1,20 @@
+body {
+	background-image: url(../html/material/gorsh.jpg);
+	background-size: 100%;
+}
+.circle {
+	width: 200px; 
+    height: 200px;
+    border-radius: 200px;
+    background: #00ff00;
+	position: absolute;
+	bottom: 3%;
+	font-family: Segoe UI;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+
