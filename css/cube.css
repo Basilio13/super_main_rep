@@ -1,0 +1,35 @@
+
+.square {
+	Position: absolute;
+	Top: 300px;
+    Left: 500px;
+	width: 200px;
+	height: 200px;
+	border: solid 1px;
+	background: #ad0000;
+	transition: 0.5s ease-in-out;
+}
+.square:active {
+	background: transparent;
+
+	}
+.square2 {
+	Position: absolute;
+	Top: 257px;
+    Left: 396px;
+	width: 100px;
+	height: 200px;
+	border: solid 1px;
+	background: #006d09;
+	transform: skew(0deg,40deg);
+}
+.square3 {
+	Position: absolute;
+	Top: 211px;
+    Left: 448px;
+	width: 200px;
+	height: 85px;
+	border: solid 1px;
+	background: #e5d200;
+	transform: skew(50deg,0deg);
+}
