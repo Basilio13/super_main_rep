@@ -1,0 +1,17 @@
+.block  {
+    width: 100px; 
+    height: 100px;
+    background: red;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px)  {
+	.block {
+	background: black;
+	}		
+}
+@media screen and (max-width: 600px)  {
+	.block {
+	background: green;
+	width: 200;
+	}
+}
